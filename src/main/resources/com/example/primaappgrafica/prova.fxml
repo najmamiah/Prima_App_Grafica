@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:controller="com.example.primaappgrafica.HelloController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="BottoneTitolo" layoutX="248.0" layoutY="187.0" mnemonicParsing="false" onAction="#NascondiTitolo" text="Nascoindi Titolo" />
+      <Label fx:id="LabelDaNascondere" layoutX="186.0" layoutY="122.0" text="Questo è un titolo">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
